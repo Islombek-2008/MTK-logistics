@@ -326,3 +326,41 @@ nav a {
   transform: scale(1.02);
   transition: all 0.5s;
 }
+
+
+/* mini page */
+
+.mini-div{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 114.64px;
+}
+
+.mini-div .mini {
+  width: 1280px;
+  display: flex;
+  background-color: #F2F2F2;
+  padding: 25px;
+}
+
+.mini-div .mini .card{
+  width: 425px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mini-div .mini .card:nth-child(2){
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+}
+
+.mini-div .mini .card h1{
+  font-size: 30px;
+  color: #2E2E2E;
+}
