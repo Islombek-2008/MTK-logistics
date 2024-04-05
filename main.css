@@ -364,3 +364,47 @@ nav a {
   font-size: 30px;
   color: #2E2E2E;
 }
+
+
+/* Как мы работаем */
+
+.rabotaem{
+  width: 100%;
+  height: 605px;
+  padding: 0 385px;
+  margin-top: 170.69px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rabotaem h1{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.rabotaem-card{
+  display: flex;
+  gap: 54px;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 187px;
+}
+
+.card-ddd{
+  position: relative;
+}
+
+.card-ddd h1{
+  position: absolute;
+  font-size: 187px; 
+  top: -80px;
+  color: #3284FF;
+  opacity: 10%;
+  left: 20px;
+}
+
+.card-ddd .card-ddd-wwww{
+  display: flex;
+  gap: 15px;
+}
