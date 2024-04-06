@@ -408,3 +408,153 @@ nav a {
   display: flex;
   gap: 15px;
 }
+
+/* rooms */
+
+.rooms{
+  background-color: #040d21;
+}
+
+.rooms .part2 {
+  display: none;
+}
+
+.rooms .part3 {
+  display: none;
+}
+
+.rooms .part1-menu {
+  width: 1120px;
+  display: flex;
+  justify-content: end;
+  gap: 25px;
+}
+.rooms a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+  line-height: 138.6%;
+  text-transform: uppercase;
+}
+
+.rooms a:hover {
+  color: #e3b873;
+}
+
+.rooms .part1 .part1-menu a:nth-child(1) {
+  color: #e3b873;
+  border-bottom: 2px solid;
+  margin-bottom: 15px;
+}
+
+.rooms .part2 .part1-menu a:nth-child(2) {
+  color: #e3b873;
+  border-bottom: 2px solid;
+  margin-bottom: 15px;
+}
+
+.rooms .part3 .part1-menu a:nth-child(3) {
+  color: #e3b873;
+  border-bottom: 2px solid;
+  margin-bottom: 15px;
+}
+
+.rooms .card {
+  display: flex;
+  margin-top: 35px;
+  gap: 50px;
+}
+
+.rooms .card-info h1 {
+  width: 253px;
+  color: #e3b873;
+  font-size: 27px;
+  margin-bottom: 34px;
+  line-height: 138.6%;
+  letter-spacing: -1.89px;
+  text-transform: uppercase;
+}
+
+.rooms .card-info p {
+  width: 442px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Nunito Sans;
+  line-height: 190.96%;
+  margin-bottom: 42px;
+}
+
+.rooms .box {
+  display: flex;
+  gap: 29px;
+}
+.rooms .box div {
+  width: 160px;
+}
+
+.rooms .box h4 {
+  color: #e3b873;
+  font-size: 18px;
+  line-height: 138.6%;
+  text-transform: uppercase;
+}
+
+.rooms .box p {
+  margin-bottom: 34px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 163.68%;
+}
+
+.rooms .one-p {
+  width: 100px;
+}
+
+.rooms .icons {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.rooms .icons i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.rooms .part1 i:nth-child(1) {
+  color: rgba(255, 255, 255, 0.3);
+  cursor: not-allowed;
+}
+
+.rooms .part3 i:nth-child(5) {
+  color: rgba(255, 255, 255, 0.3);
+  cursor: not-allowed;
+}
+
+.rooms .part1 span:nth-child(2) {
+  background: #fff;
+}
+
+.rooms .part2 span:nth-child(3) {
+  background: #fff;
+}
+
+.rooms .part3 span:nth-child(4) {
+  background: #fff;
+}
+
+.rooms .icons span {
+  display: block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.rooms .card-info img {
+  display: none;
+}
+.rooms .card-info img {
+  width: 620px;
+  height: 430px;
+}
